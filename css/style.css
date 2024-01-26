@@ -180,7 +180,13 @@ h4 {
 .logo {
   width: 25%;
   float: left;
-  padding: 100px;
+padding: 4em 5em;
+text-align: center;
+}
+
+.logo ul{
+  list-style-type: none;
+  line-height: 1.5gitem;
 }
 .twits {
 }
