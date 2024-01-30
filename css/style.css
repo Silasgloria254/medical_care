@@ -136,6 +136,9 @@ ul :hover {
   display: inline-block;
   margin: 0 auto;
 }
+.lucy{
+  color: #496bf2;
+}
 .right{
   float: right;
 }
