@@ -3,11 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 
 }
 .nav-right {
   float: right;
+}
+.bt{
+  border-radius: 2px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.p{
+  font-size:20px;
+  line-height: 35px;
+}
+.sil{
+  margin-bottom: 20px;
 }
 
 .nav-right ul li {
@@ -41,18 +57,14 @@ ul :hover {
   left: 55%;
   transform: translate(0%, -30%);
 }
-.aboutus {
-  background-color: #496bf2;
-  padding: 7px;
-  cursor: pointer;
-}
-.appointment {
-  background-color: #2dd6c1;
-  padding: 7px;
-  cursor: pointer;
-}
+
+
+
 .yes {
   color: blue;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 .collo {
   color: rgb(10, 10, 110);
 }
@@ -89,11 +101,8 @@ ul :hover {
 .about-content p {
   margin: 20px 0;
 }
-.readmore {
-  background-color: blue;
-  padding: 7px;
-  cursor: pointer;
-}
+
+
 .testimonial {
   position: relative;
   width: fit-content;
@@ -101,11 +110,6 @@ ul :hover {
 }
 .testimonial img:not(:nth-child(2)) {
   width: 100px;
-}
-.submit {
-  background-color: blue;
-  padding: 10px;
-  cursor: pointer;
 }
 
 .female {
