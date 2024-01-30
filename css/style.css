@@ -228,32 +228,14 @@ h4 {
 
 .logo ul {
   list-style-type: none;
-  line-height: 1.5gitem;
+  line-height: 1.5em;
 }
 .twits {
 }
 .home {
   text-align: center;
 }
-.kibera {
-  display: inline;
-}
-.number {
-  display: inline;
-}
-.info {
-  display: inline;
-}
 
-.kibera {
-  display: inline;
-}
-.number {
-  display: inline;
-}
-.info {
-  display: inline;
-}
 .services h3 {
   color: #496bf2;
 }
@@ -262,4 +244,11 @@ h4 {
 }
 .exerlence {
   color: #2dd6c1;
+}
+
+/* .logo-details{
+  float: left;
+} */
+.text-image{
+
 }
