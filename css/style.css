@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 .nav-right {
   float: right;
@@ -30,7 +32,7 @@ ul :hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 50vh;
+  height: 80vh;
   position: relative;
 }
 .txt {
@@ -50,8 +52,7 @@ ul :hover {
   cursor: pointer;
 }
 .yes {
-  color: blueviolet;
-}
+  color: blue;
 .collo {
   color: rgb(10, 10, 110);
 }
@@ -144,6 +145,7 @@ ul :hover {
 }
 .left{
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 .content {
   margin: 0 auto;
