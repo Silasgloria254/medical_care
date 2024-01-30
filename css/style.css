@@ -10,20 +10,26 @@ font-family: 'Josefin Sans', sans-serif;
 .nav-right {
   float: right;
 }
-.bt{
-  border-radius: 2px;
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-
+.btn{
+  border-radius: 5px;
+  padding: 15px 30px;
+  color:white;
+  border: none;
+  font-size: 20px;
 }
-.p{
+.btn-blue{
+  background-color: #496bf2;
+}
+.btn-green{
+  background-color: #2dd6c1;
+}
+p{
   font-size:20px;
   line-height: 35px;
+  align-items: center;
 }
 .sil{
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .nav-right ul li {
@@ -61,12 +67,13 @@ ul :hover {
 
 
 .yes {
-  color: blue;
+  color: #496bf2;
   margin-top: 10px;
-  margin-bottom: 50px;
+  font-size: 40px;
+  
 }
 .collo {
-  color: rgb(10, 10, 110);
+  color: #496bf2;
 }
 .service {
   box-shadow: 4px 4px 4px 4px  lightgray;
