@@ -56,11 +56,13 @@ ul :hover {
   color: rgb(10, 10, 110);
 }
 .service {
-  box-shadow: 0 0 5px lightgray;
+  box-shadow: 4px 4px 4px 4px  lightgray;
   float: left;
   width: 30%;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding:2%;
+  margin:20px;
 }
 .doctor .emergency {
   margin: 50%, 5%;
@@ -114,6 +116,13 @@ ul :hover {
 .circles {
   width: fit-content;
   margin: 0 auto;
+  
+}
+.circle-1{
+  background-color: #496bf2;
+}
+.circle-2{
+  background-color: #2dd6c1;
 }
 .problem {
   margin: 50px 0;
@@ -122,7 +131,7 @@ ul :hover {
 .testimonials-circle {
   width: 20px;
   height: 20px;
-  border: 2px solid blue;
+
   border-radius: 50%;
   display: inline-block;
   margin: 0 auto;
@@ -203,7 +212,7 @@ text-align: center;
   display: inline;
 }
 .facebook {
-  /* margin-left: 20px;
+  /**margin-left: 20px;
   margin-right: 20px; */
 }
 .kibera {
