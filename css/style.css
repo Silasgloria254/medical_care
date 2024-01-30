@@ -125,8 +125,8 @@ ul :hover {
   background-color: #2dd6c1;
 }
 .problem {
-  margin: 50px 0;
-  height: 350px;
+  width: 50%;
+  margin: 0 auto;
 }
 .testimonials-circle {
   width: 20px;
@@ -136,8 +136,13 @@ ul :hover {
   display: inline-block;
   margin: 0 auto;
 }
+.right{
+  float: right;
+}
+.left{
+  margin-bottom: 10px;
+}
 .content {
-  width: 50%;
   margin: 0 auto;
 }
 .input {
