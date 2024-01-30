@@ -1,40 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-
+  font-family: "Josefin Sans", sans-serif;
+}
+p {
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+}
+h2{
+  font-size: 40px;
+}
+.container{
+  width: 90%;
+  margin:0 auto;
 }
 .nav-right {
   float: right;
 }
-.btn{
+.btn {
   border-radius: 5px;
   padding: 15px 30px;
-  color:white;
+  color: white;
   border: none;
   font-size: 20px;
 }
-.btn-blue{
+.btn-blue {
   background-color: #496bf2;
 }
-.btn-green{
+.btn-green {
   background-color: #2dd6c1;
 }
-p{
-  font-size:20px;
-  line-height: 35px;
-  align-items: center;
-}
-.sil{
+
+.sil {
   margin: 20px 0;
 }
 
 .nav-right ul li {
   display: inline-block;
-  margin: 0 2em;
+  margin: 20px 2em;
 }
 
 .nav-left {
@@ -64,51 +70,42 @@ ul :hover {
   transform: translate(0%, -30%);
 }
 
-
-
 .yes {
   color: #496bf2;
   margin-top: 10px;
   font-size: 40px;
-  
 }
 .collo {
   color: #496bf2;
 }
 .service {
-  box-shadow: 4px 4px 4px 4px  lightgray;
+  box-shadow: 4px 4px 4px 4px lightgray;
   float: left;
   width: 30%;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding:2%;
-  margin:20px;
+  padding: 2%;
+  margin: 20px;
 }
 .doctor .emergency {
   margin: 50%, 5%;
 }
 .about {
   margin: 50px 0;
-  height: 350px;
 }
 .about-image {
   float: left;
   width: 50%;
 }
-.about-image img {
-  width: 100%;
-  height: 100%;
-}
+
 .about-content {
   float: right;
-  width: 50%;
-  padding: 0 20px;
-  line-height: 1.5;
+  width: 48%;
+  
 }
 .about-content p {
   margin: 20px 0;
 }
-
 
 .testimonial {
   position: relative;
@@ -128,17 +125,17 @@ ul :hover {
 .circles {
   width: fit-content;
   margin: 0 auto;
-  
 }
-.circle-1{
+.circle-1 {
   background-color: #496bf2;
 }
-.circle-2{
+.circle-2 {
   background-color: #2dd6c1;
 }
 .problem {
   width: 50%;
   margin: 0 auto;
+  margin-top:40px;
 }
 .testimonials-circle {
   width: 20px;
@@ -148,29 +145,28 @@ ul :hover {
   display: inline-block;
   margin: 0 auto;
 }
-.lucy{
+.lucy {
   color: #496bf2;
+  margin:20px 0;
+  font-size: 20px;
 }
-.right{
+.right {
   float: right;
 }
-.left{
+.left {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 .content {
   margin: 0 auto;
 }
-.input {
-  margin: 20px;
-  padding: 30px;
-}
+
 .tho {
   color: #496bf2;
 }
-h3 {
+/* h3 {
   text-align: center;
-}
+} */
 .love {
   color: #2dd6c1;
 }
@@ -180,23 +176,39 @@ h3 {
 .content h4 {
   color: #496bf2;
 }
-.life {
+.form {
+  width: 40%;
   padding: 20px;
-  margin: 10px;
 }
-.contact {
-  background-image: url(../images/ezgif-2-81a50240fb.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  border: 2px solid red;
-  position: relative;
+.input {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+.input input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+.contact-us {
+  margin: 70px 0;
 }
 .contact-us-content {
   background: url(../images/ezgif-2-81a50240fb.png) no-repeat center
     center/cover;
-  height: 100vh;
+  height: 90vh;
+  margin-top: 20px;
 }
 h4 {
   text-align: center;
@@ -210,11 +222,11 @@ h4 {
 .logo {
   width: 25%;
   float: left;
-padding: 4em 5em;
-text-align: center;
+  padding: 4em 5em;
+  text-align: center;
 }
 
-.logo ul{
+.logo ul {
   list-style-type: none;
   line-height: 1.5gitem;
 }
@@ -232,10 +244,7 @@ text-align: center;
 .info {
   display: inline;
 }
-.facebook {
-  /**margin-left: 20px;
-  margin-right: 20px; */
-}
+
 .kibera {
   display: inline;
 }
@@ -245,12 +254,12 @@ text-align: center;
 .info {
   display: inline;
 }
-.services h2{
-  color:#496bf2;
-}
-.participation{
+.services h3 {
   color: #496bf2;
 }
-.exerlence{
+.participation {
+  color: #496bf2;
+}
+.exerlence {
   color: #2dd6c1;
 }
