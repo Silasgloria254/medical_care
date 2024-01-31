@@ -190,7 +190,7 @@ ul :hover {
   width: 100%;
   border: none;
   outline: none;
-  font-size: 18px;
+  font-size: 18px; 
 }
 textarea {
   border: none;
@@ -202,7 +202,7 @@ textarea {
   border-radius: 5px;
 }
 .contact-us {
-  margin: 70px 0;
+  margin: 20px 0;
 }
 .contact-us-content {
   background: url(../images/ezgif-2-81a50240fb.png) no-repeat center
@@ -228,7 +228,7 @@ h4 {
 
 .logo ul {
   list-style-type: none;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 .twits {
 }
@@ -249,6 +249,3 @@ h4 {
 /* .logo-details{
   float: left;
 } */
-.text-image{
-
-}
