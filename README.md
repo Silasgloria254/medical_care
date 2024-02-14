@@ -8,7 +8,7 @@ Medic care it's a website for  an innovative medical company that clients can vi
 ___
 ## live link ##
 To access the project live use this link
-![link](https://silasgloria254.github.io/medical_care/)
+[link](https://silasgloria254.github.io/medical_care/)
 ___
 ## Screenshots ##
 ___
